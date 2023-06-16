@@ -1,7 +1,12 @@
+
 html {
   font-size: 14px;
   position: relative;
   min-height: 100%;
+}
+.nav1.a{
+  float:left;
+  display: inline;
 }
 
 @media (min-width: 768px) {
@@ -19,3 +24,45 @@ footer {
   bottom: 0; 
   margin: 10px 0px 20px 0px;
 }
+
+body{
+  background-color: #e30032;
+}
+
+header h1{
+  font-style: italic;
+  text-align: center;
+}
+header h3{
+  font-weight: 3000;
+  font-style: oblique;
+  text-align: center;
+}
+
+header img{
+  float: left;
+  width: 27%;
+  height: auto;
+  margin-left: 5%;
+}
+
+div p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+form{
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+iframe{
+  float: left;
+ margin-left: 28%;
+}
+
+
